@@ -27,7 +27,7 @@ Modification of the dummy device parameters (which is used by DummyDevice) is po
 
 ## Script tests
 
-To run test script from project directory just run `export PYTHONPATH=$(pwd); python app/test_script.py`
+To run test script from project directory just run `export PYTHONPATH=$(pwd); python test_script.py`
 
 ## Tests
 From project root directory`export DUMMY_DIR_PATH=tests/test_files;export RETRY_SLEEP_TIME=0;pytest --cov=app tests/ --cov-report term-missing`
